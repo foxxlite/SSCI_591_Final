@@ -1,13 +1,14 @@
 body {
+    text-align: center;
     width: 70%;
     margin: 0 auto;
     font: 100% "Times New Roman";
 }
 
 h1 {
-	font-family: "Times New Roman";
-	font-size: 2em;
-	font-weight: normal;
+  	font-family: "Times New Roman";
+  	font-size: 2em;
+  	font-weight: normal;
     margin: 1em 0 1em;
 }
 
@@ -19,5 +20,6 @@ h2 {
 }
 
 p {
-    text-align: justify;
+    text-align: center;
+    font-size: .7em;
 }
