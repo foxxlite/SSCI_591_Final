@@ -1,8 +1,11 @@
-body {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    font: 100% "Times New Roman";
+html {
+    height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -22,4 +25,8 @@ h2 {
 p {
     text-align: center;
     font-size: .7em;
+}
+
+#map {
+  height: 100%;
 }
