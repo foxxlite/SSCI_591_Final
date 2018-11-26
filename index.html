@@ -6,15 +6,35 @@
     <title>Fusion Tables Layers</title>
     <link rel="stylesheet" href="stylesheet.css">
   </head>
+
   <body>
+    <div class='sidebar pad2'>Listing</div>
+
+    <!-- These divs place the Our Locations text in the listing window -->
+    <div class='sidebar'>
+    <div class='heading'>
+    <h1>Our locations</h1>
+    </div>
+    <div id='listings' class='listings'></div>
+    </div>
     <div id="map"></div>
+
+    <!-- Initialize the map -->
     <script>
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 44.076547, lng: -121.016643},
-          zoom: 7.5
-        });
+          center: {lat: 44.276547, lng: -120.516643},
+          zoom: 7.2
+      });
 
+        // Load geojson into a variable
+        var locations =
+          {"type":"FeatureCollection","features":[{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"portland real estate","number":73737362},"geometry":{"type":"Point","coordinates":[-122.72140502929686,45.50730933674183]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"location 2","number":6726256252},"geometry":{"type":"Point","coordinates":[-122.64587402343751,45.556371735883125]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"portland loc 3","number":4525273},"geometry":{"type":"Point","coordinates":[-122.59780883789061,45.51308360513238]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"another loc","number":7749393},"geometry":{"type":"Point","coordinates":[-122.63900756835938,45.51212126820532]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"num four","number":56525242},"geometry":{"type":"Point","coordinates":[-122.68981933593749,45.57560020947802]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"salem loc","number":"point point"},"geometry":{"type":"Point","coordinates":[-123.04687499999999,44.929807512153914]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"albany loc","number":656667372378},"geometry":{"type":"Point","coordinates":[-123.11004638671874,44.63739123445585]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"bend apt!","number":434353},"geometry":{"type":"Point","coordinates":[-121.3385009765625,44.040218713142146]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"middle of nowhere","number":99458585},"geometry":{"type":"Point","coordinates":[-120.01739501953125,43.53660274231031]}},{"type":"Feature","properties":{"marker-color":"#7e7e7e","marker-size":"medium","marker-symbol":"","name":"north bend apt","number":432435363},"geometry":{"type":"Point","coordinates":[-121.27944946289062,44.06982710133289]}}]}
+
+          // Use data.add instead of data.load, which works for urls
+          map.data.addGeoJson(locations);
+
+        // Load the fusion table layer
         var layer = new google.maps.FusionTablesLayer({
           query: {
             select: 'description',
@@ -27,13 +47,46 @@
             }
             }, {
             where: 'Percent_occupied_housing_units > 90',
-            polygonOptions: {
-              fillColor: '#00FFFF'
-      }
-    }]
+              polygonOptions: {
+                fillColor: '#00FFFF',
+                fillOpacity: 0.75
+              }
+          }]
         });
-        layer.setMap(map);
-      }
+
+          // Attempt to load point data into the sidebar; not working yet
+          function buildLocationList(data) {
+            // Iterate through the list of stores
+            for (i = 0; i < data.features.length; i++) {
+              var currentFeature = data.features[i];
+              // Shorten data.feature.properties to just `prop` so we're not
+              // writing this long form over and over again.
+              var prop = currentFeature.properties;
+              // Select the listing container in the HTML and append a div
+              // with the class 'item' for each store
+              var listings = document.getElementById('listings');
+              var listing = listings.appendChild(document.createElement('div'));
+              listing.className = 'item';
+              listing.id = 'listing-' + i;
+
+              // Create a new link with the class 'title' for each store
+              // and fill it with the store address
+              var link = listing.appendChild(document.createElement('a'));
+              link.href = '#';
+              link.className = 'title';
+              link.dataPosition = i;
+              link.innerHTML = prop.name;
+
+              // Create a new div with the class 'details' for each store
+              // and fill it with the city and phone number
+              var details = listing.appendChild(document.createElement('div'));
+              details.innerHTML = prop.name;
+            }
+          }
+              // End non functioning attempt to load point data into sidebar
+
+          layer.setMap(map);
+    }
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCU-X6cOMKyzQUM8Gpv6ecoukCzOWlgEx8&q&callback=initMap">
