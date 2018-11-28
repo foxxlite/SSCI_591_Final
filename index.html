@@ -1,22 +1,26 @@
+<!doctype html>
+<html lang="en">
 
 <html>
   <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=no"> -->
     <meta charset="utf-8">
-    <title>Fusion Tables Layers</title>
+    <title>Oregon Apartments</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <!-- Place favicon in the browser tab -->
+    <link rel="icon" type="image/png" href="/favicon.png"/>
   </head>
 
   <body>
-    <div class='sidebar pad2'>Listing</div>
+    <div class='sidebar' id='pad'>Listing</div>
 
-    <!-- These divs place the Our Locations text in the listing window -->
     <div class='sidebar'>
-    <div class='heading'>
-    <h1>Our locations</h1>
+        <div id='heading'>
+            <h1>Our locations</h1>
+        </div>
+        <div id='listings'></div>
     </div>
-    <div id='listings' class='listings'></div>
-    </div>
+
     <div id="map"></div>
 
     <!-- Initialize the map -->

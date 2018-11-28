@@ -1,5 +1,11 @@
-* {
+/* * {
     box-sizing: border-box;
+} */
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -9,12 +15,6 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-}
-
-html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -36,6 +36,10 @@ p {
     font-size: .7em;
 }
 
+.sidebar {
+  width: 33.3333%
+}
+
 #map {
   color: #000000;
   border-left:1px solid #fff;
@@ -45,13 +49,15 @@ p {
   top:0;bottom:0;
   }
 
-.sidebar {
-  width: 33.3333%
-}
-
-.pad2 {
+#pad {
   padding:20px;
-  -webkit-box-sizing:border-box;
+  font-size: 1.5em;
+  font-style: italic;
+  /* -webkit-box-sizing:border-box;
      -moz-box-sizing:border-box;
-          box-sizing:border-box;
+          box-sizing:border-box; */
+  }
+
+  #heading {
+    /* color: black; */
   }
