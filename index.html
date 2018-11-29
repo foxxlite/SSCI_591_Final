@@ -32,7 +32,7 @@
         zoom: 7.2
     });
 
-    // Load the fusion table layer
+    // Load the fusion table layer and apply styling
     var layer = new google.maps.FusionTablesLayer({
       query: {
         select: 'description',
@@ -55,23 +55,22 @@
         map.data.loadGeoJson('/locations.geojson');
 
 
-        // Attempt to load point data into the sidebar; not working yet
+        // Load data into the sidebar
+        // Use jquery js library getJSON method to load json from local directory (root)
         $.getJSON('locations.geojson', function buildLocationList(data) {
-          // Iterate through the list of stores
+          // Iterate through the list of locations
           for (i = 0; i < data.features.length; i++) {
             var currentFeature = data.features[i];
-            // Shorten data.feature.properties to just `prop` so we're not
-            // writing this long form over and over again.
             var prop = currentFeature.properties;
             // Select the listing container in the HTML and append a div
-            // with the class 'item' for each store
+            // with the class 'item' for each location
             var listings = document.getElementById('listings');
             var listing = listings.appendChild(document.createElement('div'));
             listing.className = 'item';
             listing.id = 'listing-' + i;
 
-            // Create a new link with the class 'title' for each store
-            // and fill it with the store address
+            // Create a new link with the class 'title' for each location
+            // and fill it with the store listing
             var link = listing.appendChild(document.createElement('a'));
             link.href = prop.listing;
             link.target = "_blank"
@@ -88,6 +87,21 @@
             // End non functioning attempt to load point data into sidebar
 
         layer.setMap(map);
+
+        var contentString = 'test'
+        // set up info window variable
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        // call info window on click event
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          title: 'Uluru (Ayers Rock)'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
   }
   </script>
   <script async defer

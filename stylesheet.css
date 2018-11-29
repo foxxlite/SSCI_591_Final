@@ -60,6 +60,8 @@ p {
 
 #listings {
     color: grey;
+    font-style: italic;
+    padding: 1em;
   }
 
 a {
