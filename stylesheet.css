@@ -58,13 +58,9 @@ p {
           box-sizing:border-box; */
 }
 
-#heading {
-  /* color: black; */
-}
-
 #listings {
-  color: grey;
-}
+    color: grey;
+  }
 
 a {
   color: white;
