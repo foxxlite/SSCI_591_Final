@@ -36,7 +36,7 @@
     var layer = new google.maps.FusionTablesLayer({
       query: {
         select: 'description',
-        from: '1r7VtfJOWsDkulfNCXXLBHg6Pr4-mUsYKf61crhw4'
+        from: '1Jk9L2xyykAauyYrKOQk0RPSKbm7U5pAW530KjvdJ'
       },
       styles: [{
         polygonOptions: {
@@ -81,7 +81,7 @@
             // Create a new div with the class 'details' for each store
             // and fill it with the city and phone number
             var details = listing.appendChild(document.createElement('div'));
-            details.innerHTML = prop.name;
+            details.innerHTML = prop.listing;
           }
         })
             // End non functioning attempt to load point data into sidebar
