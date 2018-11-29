@@ -8,6 +8,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Bend Real Estate",
+            "desc":"Portland",
             "listing":"https://www.apartments.com/seasons-at-farmington-bend-or/8krmcn2/"
          },
          "geometry":{
@@ -25,6 +26,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Tabor View Lofts",
+            "desc":"Forest Grove",
             "listing":"https://www.apartments.com/portland-or/2/"
          },
          "geometry":{
@@ -42,6 +44,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Town and Country Apartments",
+            "desc":"Portland",
             "listing":"https://www.apartments.com/portland-or/2/"
          },
          "geometry":{
@@ -59,6 +62,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"The Courtyard on Stark",
+            "desc":"Eugene",
             "listing":"https://www.apartments.com/portland-or/10/"
          },
          "geometry":{
@@ -76,6 +80,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Garden Glen Apartments",
+            "desc":"Mount Tabor",
             "listing":"https://www.apartments.com/garden-glen-apartments-portland-or/wjvv2qj/"
          },
          "geometry":{
@@ -93,6 +98,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Commons at Timber Crekk Apartments",
+            "desc":"Hillsboro",
             "listing":"https://www.apartments.com/commons-at-timber-creek-apartments-portland-or/3w6926f/"
          },
          "geometry":{
@@ -110,6 +116,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Broadway Center",
+            "desc":"Gresham",
             "listing":"https://www.apartments.com/broadway-center-eugene-or/1pwbcg6/"
          },
          "geometry":{
@@ -127,6 +134,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Bailey Hills Meadows",
+            "desc":"Portland",
             "listing":"https://www.apartments.com/bailey-hill-meadows-eugene-or/1pjvgk5/"
          },
          "geometry":{
@@ -144,6 +152,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Parkgrove Apartments",
+            "desc":"Portland",
             "listing":"https://www.apartments.com/parkgrove-apartments-eugene-or/3xxswvd/"
          },
          "geometry":{
@@ -161,6 +170,7 @@
             "marker-size":"medium",
             "marker-symbol":"",
             "name":"Outlook at Pilot Butte",
+            "desc":"Bend",
             "listing":"https://www.apartments.com/outlook-at-pilot-butte-bend-or/f7ytgmr/"
          },
          "geometry":{

@@ -44,7 +44,7 @@
           fillOpacity: 0.65
         }
         }, {
-        where: 'Percent_occupied_housing_units < 90',
+        where: 'Percent_occupied_housing_units > 90',
           polygonOptions: {
             fillColor: '#17A589',
             fillOpacity: 0.65
@@ -73,7 +73,8 @@
             // Create a new link with the class 'title' for each store
             // and fill it with the store address
             var link = listing.appendChild(document.createElement('a'));
-            link.href = '#';
+            link.href = prop.listing;
+            link.target = "_blank"
             link.className = 'title';
             link.dataPosition = i;
             link.innerHTML = prop.name;
@@ -81,7 +82,7 @@
             // Create a new div with the class 'details' for each store
             // and fill it with the city and phone number
             var details = listing.appendChild(document.createElement('div'));
-            details.innerHTML = prop.listing;
+            details.innerHTML = prop.desc;
           }
         })
             // End non functioning attempt to load point data into sidebar
