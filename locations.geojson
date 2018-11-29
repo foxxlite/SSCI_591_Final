@@ -7,8 +7,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"portland real estate",
-            "number":73737362
+            "name":"Bend Real Estate",
+            "listing":"https://www.apartments.com/seasons-at-farmington-bend-or/8krmcn2/"
          },
          "geometry":{
             "type":"Point",
@@ -24,8 +24,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"location 2",
-            "number":6726256252
+            "name":"Tabor View Lofts",
+            "listing":"https://www.apartments.com/portland-or/2/"
          },
          "geometry":{
             "type":"Point",
@@ -41,8 +41,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"portland loc 3",
-            "number":4525273
+            "name":"Town and Country Apartments",
+            "listing":"https://www.apartments.com/portland-or/2/"
          },
          "geometry":{
             "type":"Point",
@@ -58,8 +58,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"another loc",
-            "number":7749393
+            "name":"The Courtyard on Stark",
+            "listing":"https://www.apartments.com/portland-or/10/"
          },
          "geometry":{
             "type":"Point",
@@ -75,8 +75,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"num four",
-            "number":56525242
+            "name":"Garden Glen Apartments",
+            "listing":"https://www.apartments.com/garden-glen-apartments-portland-or/wjvv2qj/"
          },
          "geometry":{
             "type":"Point",
@@ -92,8 +92,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"salem loc",
-            "number":"point point"
+            "name":"Commons at Timber Crekk Apartments",
+            "listing":"https://www.apartments.com/commons-at-timber-creek-apartments-portland-or/3w6926f/"
          },
          "geometry":{
             "type":"Point",
@@ -109,8 +109,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"albany loc",
-            "number":656667372378
+            "name":"Broadway Center",
+            "listing":"https://www.apartments.com/broadway-center-eugene-or/1pwbcg6/"
          },
          "geometry":{
             "type":"Point",
@@ -126,8 +126,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"bend apt!",
-            "number":434353
+            "name":"Bailey Hills Meadows",
+            "listing":"https://www.apartments.com/bailey-hill-meadows-eugene-or/1pjvgk5/"
          },
          "geometry":{
             "type":"Point",
@@ -143,8 +143,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"middle of nowhere",
-            "number":99458585
+            "name":"Parkgrove Apartments",
+            "listing":"https://www.apartments.com/parkgrove-apartments-eugene-or/3xxswvd/"
          },
          "geometry":{
             "type":"Point",
@@ -160,8 +160,8 @@
             "marker-color":"#7e7e7e",
             "marker-size":"medium",
             "marker-symbol":"",
-            "name":"north bend apt",
-            "number":432435363
+            "name":"Outlook at Pilot Butte",
+            "listing":"https://www.apartments.com/outlook-at-pilot-butte-bend-or/f7ytgmr/"
          },
          "geometry":{
             "type":"Point",
