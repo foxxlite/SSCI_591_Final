@@ -25,81 +25,98 @@
   <div id="map"></div>
 
   <!-- Initialize the map -->
-  <script>
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 44.276547, lng: -120.516643},
-        zoom: 7.2
-    });
+  <!-- Help with the sidebar from -->
+  <!-- https://www.mapbox.com/help/building-a-store-locator/#final-tweaks -->
+<script>
 
-    // Load the fusion table layer and apply styling
-    var layer = new google.maps.FusionTablesLayer({
-      query: {
-        select: 'description',
-        from: '1Jk9L2xyykAauyYrKOQk0RPSKbm7U5pAW530KjvdJ'
-      },
-      styles: [{
-        polygonOptions: {
-          fillColor: '#76D7C4',
-          fillOpacity: 0.65
-        }
-        }, {
-        where: 'Percent_occupied_housing_units > 90',
-          polygonOptions: {
-            fillColor: '#17A589',
-            fillOpacity: 0.65
-          }
-      }]
-    })
-        // Load external geojson
-        map.data.loadGeoJson('/locations.geojson');
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 44.276547, lng: -120.516643},
+    zoom: 7.2
+});
 
-
-        // Load data into the sidebar
-        // Use jquery js library getJSON method to load json from local directory (root)
-        $.getJSON('locations.geojson', function buildLocationList(data) {
-          // Iterate through the list of locations
-          for (i = 0; i < data.features.length; i++) {
-            var currentFeature = data.features[i];
-            var prop = currentFeature.properties;
-            // Select the listing container in the HTML and append a div
-            // with the class 'item' for each location
-            var listings = document.getElementById('listings');
-            var listing = listings.appendChild(document.createElement('div'));
-            listing.className = 'item';
-            listing.id = 'listing-' + i;
-
-            // Create a new link with the class 'title' for each location
-            // and fill it with the store listing
-            var link = listing.appendChild(document.createElement('a'));
-            link.href = prop.listing;
-            link.target = "_blank"
-            link.className = 'title';
-            link.dataPosition = i;
-            link.innerHTML = prop.name;
-
-            // Create a new div with the class 'details' for each store
-            // and fill it with the city and phone number
-            var details = listing.appendChild(document.createElement('div'));
-            details.innerHTML = prop.desc;
-          }
-        })
-
-        layer.setMap(map);
-
-        // Establish infowindow variable
-        var infowindow = new google.maps.InfoWindow();
-
-        // When the user clicks, open an infowindow
-        map.data.addListener('click', function(event) {
-            var myHTML = event.feature.getProperty("name");
-            infowindow.setContent("<div style='width:150px; text-align: center;'>"+myHTML+"</div>");
-            infowindow.setPosition(event.feature.getGeometry().get());
-            infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
-            infowindow.open(map);
-        });
-
+// Load the fusion table layer and apply styling
+var layer = new google.maps.FusionTablesLayer({
+  query: {
+    select: 'description',
+    from: '1Jk9L2xyykAauyYrKOQk0RPSKbm7U5pAW530KjvdJ'
+  },
+  styles: [{
+    polygonOptions: {
+      fillColor: '#76D7C4',
+      fillOpacity: 0.65
   }
+  }, {
+  where: 'Percent_occupied_housing_units > 90',
+    polygonOptions: {
+      fillColor: '#17A589',
+      fillOpacity: 0.65
+    }
+  }]
+})
+
+// Load external geojson
+map.data.loadGeoJson('/locations.geojson');
+
+
+// Load data into the sidebar
+// Use jquery js library getJSON method to load json from local directory (root)
+$.getJSON('locations.geojson', function buildLocationList(data) {
+  // Iterate through the list of locations
+  for (i = 0; i < data.features.length; i++) {
+    var currentFeature = data.features[i];
+    var prop = currentFeature.properties;
+    // Select the listing container in the HTML and append a div
+    // with the class 'item' for each location
+    var listings = document.getElementById('listings');
+    var listing = listings.appendChild(document.createElement('div'));
+    listing.className = 'item';
+    listing.id = 'listing-' + i;
+
+    // Create a new link with the class 'title' for each location
+    // and fill it with the store listing
+    var link = listing.appendChild(document.createElement('a'));
+    link.href = prop.listing;
+    link.target = "_blank"
+    link.className = 'title';
+    link.dataPosition = i;
+    link.innerHTML = prop.name;
+
+    // Create a new div with the class 'details' for each store
+    // and fill it with the city and phone number
+    var details = listing.appendChild(document.createElement('div'));
+    details.innerHTML = prop.desc;
+  }
+})
+
+layer.setMap(map);
+
+// Establish infowindow variable
+// Help with infowindow from
+// https://stackoverflow.com/questions/23814197/creating-infowindows-on-features-loaded-via-loadgeojson
+var infowindow = new google.maps.InfoWindow();
+
+// When the user clicks, open an infowindow
+map.data.addListener('click', function(event) {
+    var myHTML = event.feature.getProperty("name");
+    infowindow.setContent("<div style='width:150px; text-align: center;'>"+myHTML+"</div>");
+    infowindow.setPosition(event.feature.getGeometry().get());
+    infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
+    infowindow.open(map);
+});
+
+var markers = locations.map(function(location, i) {
+  return new google.maps.Marker({
+    position: location,
+    label: labels[i % labels.length]
+  });
+});
+
+// Add a marker clusterer to manage the markers.
+var markerCluster = new MarkerClusterer(map, markers,
+    {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+}
+
   </script>
   <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCU-X6cOMKyzQUM8Gpv6ecoukCzOWlgEx8&q&callback=initMap">
