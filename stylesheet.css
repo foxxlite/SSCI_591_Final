@@ -1,11 +1,20 @@
-html {
-    height: 100%;
+* {
+    box-sizing: border-box;
 }
 
-html, body {
+html {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: #404040;
+  color: #f8f8f8;
+  font: 500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -27,6 +36,32 @@ p {
     font-size: .7em;
 }
 
+.sidebar {
+  width: 33.3333%
+}
+
 #map {
-  height: 100%;
+  color: #000000;
+  border-left:1px solid #fff;
+  position:absolute;
+  left:33.3333%;
+  width:66.6666%;
+  top:0;bottom:0;
+}
+
+#pad {
+  padding:20px;
+  font-size: 1.5em;
+  font-style: italic;
+
+}
+
+#listings {
+    color: grey;
+    font-style: italic;
+    padding: 1em;
+  }
+
+a {
+  color: white;
 }
