@@ -1,185 +1,2917 @@
 {
    "type": "FeatureCollection",
-   "features":[
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Bend Real Estate",
-            "desc":"Portland",
-            "listing":"https://www.apartments.com/seasons-at-farmington-bend-or/8krmcn2/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -122.72140502929686,
-               45.50730933674183
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Tabor View Lofts",
-            "desc":"Forest Grove",
-            "listing":"https://www.apartments.com/portland-or/2/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -122.64587402343751,
-               45.556371735883125
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Town and Country Apartments",
-            "desc":"Portland",
-            "listing":"https://www.apartments.com/portland-or/2/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -122.59780883789061,
-               45.51308360513238
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"The Courtyard on Stark",
-            "desc":"Eugene",
-            "listing":"https://www.apartments.com/portland-or/10/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -122.63900756835938,
-               45.51212126820532
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Garden Glen Apartments",
-            "desc":"Mount Tabor",
-            "listing":"https://www.apartments.com/garden-glen-apartments-portland-or/wjvv2qj/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -122.68981933593749,
-               45.57560020947802
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Commons at Timber Crekk Apartments",
-            "desc":"Hillsboro",
-            "listing":"https://www.apartments.com/commons-at-timber-creek-apartments-portland-or/3w6926f/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -123.04687499999999,
-               44.929807512153914
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Broadway Center",
-            "desc":"Gresham",
-            "listing":"https://www.apartments.com/broadway-center-eugene-or/1pwbcg6/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -123.11004638671874,
-               44.63739123445585
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Bailey Hills Meadows",
-            "desc":"Portland",
-            "listing":"https://www.apartments.com/bailey-hill-meadows-eugene-or/1pjvgk5/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -121.3385009765625,
-               44.040218713142146
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Parkgrove Apartments",
-            "desc":"Portland",
-            "listing":"https://www.apartments.com/parkgrove-apartments-eugene-or/3xxswvd/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -120.01739501953125,
-               43.53660274231031
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "marker-color":"#7e7e7e",
-            "marker-size":"medium",
-            "marker-symbol":"",
-            "name":"Outlook at Pilot Butte",
-            "desc":"Bend",
-            "listing":"https://www.apartments.com/outlook-at-pilot-butte-bend-or/f7ytgmr/"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -121.27944946289062,
-               44.06982710133289
-            ]
-         }
-      }
-   ]
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9428457,39.7475382 ]
+    },
+    "properties": {
+    "name":"G5 Apartments",
+    "corporate":"f",
+    "domain":"origin-g5apartments-corporate-basic-showcase.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.996043,39.735163 ]
+    },
+    "properties": {
+    "name":"Marquis at the Parkway",
+    "corporate":"f",
+    "domain":"theparkwayapts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8953296,39.7467741 ]
+    },
+    "properties": {
+    "name":"Advenir at Stapleton",
+    "corporate":"f",
+    "domain":"stapletonapts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0869052,39.7114533 ]
+    },
+    "properties": {
+    "name":"Village at Belmar",
+    "corporate":"f",
+    "domain":"villageatbelmar.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.004283,39.7523259 ]
+    },
+    "properties": {
+    "name":"SS Ivy Lifestyle",
+    "corporate":"f",
+    "domain":"1485luxe.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.2925784,39.2497275 ]
+    },
+    "properties": {
+    "name":"Tabor Grand Hotel Apartments",
+    "corporate":"f",
+    "domain":"taborgrandhotel.com",
+    "city":"Leadville",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.8789826,39.6446675 ]
+    },
+    "properties": {
+    "name":"Gateway Secure Storage",
+    "corporate":"f",
+    "domain":"gypsumselfstorage.com",
+    "city":"Gypsum",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8499635,39.0710873 ]
+    },
+    "properties": {
+    "name":"My Storage at Jackson Creek",
+    "corporate":"f",
+    "domain":"mystorageatjacksoncreek.com",
+    "city":"Monument",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7438904,38.8418794 ]
+    },
+    "properties": {
+    "name":"AAA Platte Self Storage",
+    "corporate":"f",
+    "domain":"aaaplatte.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8616727,39.6938313 ]
+    },
+    "properties": {
+    "name":"Viridian at the Gardens on Havana",
+    "corporate":"f",
+    "domain":"wemayneedthis.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1738998,39.7764856 ]
+    },
+    "properties": {
+    "name":"Table Mountain Veterinary Clinic",
+    "corporate":"f",
+    "domain":"tablemountainveterinaryclinic.com",
+    "city":"Golden",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8979926,39.65650369999999 ]
+    },
+    "properties": {
+    "name":"3300 Tamarac",
+    "corporate":"f",
+    "domain":"3300tamaracapts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8045657,39.9124534 ]
+    },
+    "properties": {
+    "name":"Avilla Buffalo Run",
+    "corporate":"f",
+    "domain":"avillabuffalorun.com",
+    "city":"Commerce City",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7139663,38.9415805 ]
+    },
+    "properties": {
+    "name":"Melody Living Colorado Springs",
+    "corporate":"f",
+    "domain":"melodylivingcoloradosprings2opl.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.86499,39.6643714 ]
+    },
+    "properties": {
+    "name":"DELETE - NSS",
+    "corporate":"f",
+    "domain":"delete-neighborhoodselfstorageaurora.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.919465,39.592526 ]
+    },
+    "properties": {
+    "name":"Villas at Homestead Apartments",
+    "corporate":"f",
+    "domain":"villasathomesteadapts.com",
+    "city":"Englewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8523685,39.6589041 ]
+    },
+    "properties": {
+    "name":"Advenir at French Quarter",
+    "corporate":"f",
+    "domain":"adveniratfrenchquarter.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.86499,39.6643714 ]
+    },
+    "properties": {
+    "name":"Neighborhood Self Storage",
+    "corporate":"f",
+    "domain":"neighborhoodselfstorageaurora.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9741577,39.7591387 ]
+    },
+    "properties": {
+    "name":"SS Broadway",
+    "corporate":"f",
+    "domain":"selfstoragebroadwaydemo.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.871849,39.581425 ]
+    },
+    "properties": {
+    "name":"The Rail at Inverness",
+    "corporate":"f",
+    "domain":"therailatinverness.com",
+    "city":"Englewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9998874,39.7218725 ]
+    },
+    "properties": {
+    "name":"Tender Touch Animal Hospital",
+    "corporate":"f",
+    "domain":"tendertouchvet.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9429463,39.747597 ]
+    },
+    "properties": {
+    "name":"Can Copy Over #6",
+    "corporate":"f",
+    "domain":"7711luxea.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.713739,38.719476 ]
+    },
+    "properties": {
+    "name":"Mesa Ridge Self Storage",
+    "corporate":"f",
+    "domain":"mesaridgeselfstorage.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0021294,40.4278212 ]
+    },
+    "properties": {
+    "name":"Self Storage at Centerra",
+    "corporate":"f",
+    "domain":"centerraselfstorage.com",
+    "city":"Loveland",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9871695,39.6501443 ]
+    },
+    "properties": {
+    "name":"Location One",
+    "corporate":"f",
+    "domain":"bellapartmentliving.com",
+    "city":"Englewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7011139,39.0156779 ]
+    },
+    "properties": {
+    "name":"Black Forest Veterinary Clinic",
+    "corporate":"f",
+    "domain":"blackforestvetclinic.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.772023,39.6199145 ]
+    },
+    "properties": {
+    "name":"Coal Creek Veterinary Hospital",
+    "corporate":"f",
+    "domain":"coalcreekvet.com",
+    "city":"Centennial",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7833842,38.8449398 ]
+    },
+    "properties": {
+    "name":"The Retreat at Sunny Vista",
+    "corporate":"f",
+    "domain":"sunnyretreat.org",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0745236,40.4269652 ]
+    },
+    "properties": {
+    "name":"Affinity at Loveland",
+    "corporate":"f",
+    "domain":"affinityatloveland.com",
+    "city":"Loveland",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9823541,39.7670256 ]
+    },
+    "properties": {
+    "name":"City Bark - Lodo",
+    "corporate":"f",
+    "domain":"citybark2.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0115909,39.7291767 ]
+    },
+    "properties": {
+    "name":"City Bark - 8th Ave",
+    "corporate":"f",
+    "domain":"citybark.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.6686102,39.8778105 ]
+    },
+    "properties": {
+    "name":"Baby Bae Duramax",
+    "corporate":"f",
+    "domain":"darthkadercacheclearcheck.tk",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1467062,39.7172985 ]
+    },
+    "properties": {
+    "name":"Ascend at Red Rocks",
+    "corporate":"f",
+    "domain":"ascendatredrocks.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1372139,39.7236082 ]
+    },
+    "properties": {
+    "name":"Westhills Apartment Homes",
+    "corporate":"f",
+    "domain":"westhills-apts.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9429463,39.747597 ]
+    },
+    "properties": {
+    "name":"G5 Apartments",
+    "corporate":"t",
+    "domain":"g5apartments-corporate-basic-showcase.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.9747945,37.2317306 ]
+    },
+    "properties": {
+    "name":"Vivere",
+    "corporate":"f",
+    "domain":"viverelosgatosxxxxxxxxx.com",
+    "city":"Los Gatos",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8927697,39.6848782 ]
+    },
+    "properties": {
+    "name":"Deerfield Apartments",
+    "corporate":"f",
+    "domain":"deerfieldapartmenthomes.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -108.56072,39.096594 ]
+    },
+    "properties": {
+    "name":"Cappella of Grand Junction",
+    "corporate":"f",
+    "domain":"cappellagrandjunction.com",
+    "city":"Grand Junction",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9055136,39.6072803 ]
+    },
+    "properties": {
+    "name":"Ascent Living Communities",
+    "corporate":"t",
+    "domain":"ascentlc.com",
+    "city":"Centennial",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7533111,38.9657625 ]
+    },
+    "properties": {
+    "name":"New Dawn Memory Care",
+    "corporate":"f",
+    "domain":"newdawncoloradosprings.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.874157,39.5390366 ]
+    },
+    "properties": {
+    "name":"Aspect",
+    "corporate":"f",
+    "domain":"aspectapts.com",
+    "city":"Lone Tree",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.043571,39.8274582 ]
+    },
+    "properties": {
+    "name":"Orchard Crossing Apartments",
+    "corporate":"f",
+    "domain":"liveorchardcrossing.com",
+    "city":"Westminster",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9687304,39.8418903 ]
+    },
+    "properties": {
+    "name":"Waterview on the Parkway",
+    "corporate":"f",
+    "domain":"livewaterviewapts.com",
+    "city":"Thornton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8690962,39.6780666 ]
+    },
+    "properties": {
+    "name":"Broadcity Animal Clinic",
+    "corporate":"f",
+    "domain":"darthkaderbroadcity.tk",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8224199,39.695664 ]
+    },
+    "properties": {
+    "name":"City Center Station Apartments",
+    "corporate":"f",
+    "domain":"citycenterstationaptsdeleted.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9935225,39.8613007 ]
+    },
+    "properties": {
+    "name":"Overlook at Thornton",
+    "corporate":"f",
+    "domain":"liveoverlookapts.com",
+    "city":"Thornton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0160066,39.8345474 ]
+    },
+    "properties": {
+    "name":"Zuni Plaza Apartment Homes",
+    "corporate":"f",
+    "domain":"livezuniapts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.961306,39.88341 ]
+    },
+    "properties": {
+    "name":"Village of Yorkshire",
+    "corporate":"f",
+    "domain":"liveyorkshire.com",
+    "city":"Thornton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0232502,39.8465777 ]
+    },
+    "properties": {
+    "name":"Village of Greenbriar",
+    "corporate":"f",
+    "domain":"livegreenbriar.com",
+    "city":"Westminster",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0946772,39.8839343 ]
+    },
+    "properties": {
+    "name":"Sofi Westminster",
+    "corporate":"f",
+    "domain":"sofiwestminster.com",
+    "city":"Westminster",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0031541,39.8565512 ]
+    },
+    "properties": {
+    "name":"Orchard Hills Senior Apartments",
+    "corporate":"f",
+    "domain":"liveorchardhillapts.com",
+    "city":"Thornton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.000731,39.860633 ]
+    },
+    "properties": {
+    "name":"Creekside Place Apartment Homes",
+    "corporate":"f",
+    "domain":"livecreeksideplace.com",
+    "city":"Thornton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.027125,39.8251149 ]
+    },
+    "properties": {
+    "name":"Terrace Gardens",
+    "corporate":"f",
+    "domain":"liveterrace.org",
+    "city":"Westminster",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2218369,38.4726824 ]
+    },
+    "properties": {
+    "name":"Mary's Magazine Self Storage",
+    "corporate":"f",
+    "domain":"marysmagazineselfstorage.com",
+    "city":"Canon City",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0258948,39.8246898 ]
+    },
+    "properties": {
+    "name":"ALTO",
+    "corporate":"f",
+    "domain":"livealtoapts.com",
+    "city":"Westminster",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.002258,39.853913 ]
+    },
+    "properties": {
+    "name":"Aztec Villa Apartment Homes",
+    "corporate":"f",
+    "domain":"liveaztecapts.com",
+    "city":"Thornton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7222938,38.8708359 ]
+    },
+    "properties": {
+    "name":"East Springs Animal Hospital",
+    "corporate":"f",
+    "domain":"eastsprings.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1095169,39.8426449 ]
+    },
+    "properties": {
+    "name":"Care Animal Hospital",
+    "corporate":"f",
+    "domain":"careanimal.com",
+    "city":"Arvada",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2843541,40.0586755 ]
+    },
+    "properties": {
+    "name":"Ace Self Storage",
+    "corporate":"f",
+    "domain":"acestorageboulder.com",
+    "city":"Boulder",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2320512,39.7821349 ]
+    },
+    "properties": {
+    "name":"Golden Storage",
+    "corporate":"f",
+    "domain":"golden-storage.com",
+    "city":"Golden",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9998874,39.7218725 ]
+    },
+    "properties": {
+    "name":"Tender Touch Cat Pack",
+    "corporate":"f",
+    "domain":"darthkadertendertouch.tk",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.807303,39.722279 ]
+    },
+    "properties": {
+    "name":"Westridge Apartments",
+    "corporate":"f",
+    "domain":"westridge-apts.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7692087,39.5340445 ]
+    },
+    "properties": {
+    "name":"Parkglenn Self Storage",
+    "corporate":"f",
+    "domain":"parkglennselfstorage.com",
+    "city":"Parker",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8277073,39.7414066 ]
+    },
+    "properties": {
+    "name":"Fitzsimons Self Storage",
+    "corporate":"f",
+    "domain":"fitzsimonsselfstorage.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8862563,39.5525501 ]
+    },
+    "properties": {
+    "name":"Contour 39",
+    "corporate":"f",
+    "domain":"contour39.com",
+    "city":"Lone Tree",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0665536,39.7391845 ]
+    },
+    "properties": {
+    "name":"Lamar Station Apartments",
+    "corporate":"f",
+    "domain":"lamarstationapts.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0293379,39.6906339 ]
+    },
+    "properties": {
+    "name":"Parkwood Plaza Apartments",
+    "corporate":"f",
+    "domain":"parkwoodplazaapts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0309054,39.93138860000001 ]
+    },
+    "properties": {
+    "name":"Grand Adams",
+    "corporate":"f",
+    "domain":"grand-adams-skip-step-test.net",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.992388,39.740608 ]
+    },
+    "properties": {
+    "name":"2001 Luxe 1",
+    "corporate":"f",
+    "domain":"2001luxe.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9429463,39.747597 ]
+    },
+    "properties": {
+    "name":"West Denver Ivy 1",
+    "corporate":"f",
+    "domain":"westdenverivy1.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8992244,39.6976953 ]
+    },
+    "properties": {
+    "name":"Advenir At Cherry Creek North",
+    "corporate":"f",
+    "domain":"adveniratcherrycreeknorth.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.109817,39.8263973 ]
+    },
+    "properties": {
+    "name":"Arvada Estates",
+    "corporate":"f",
+    "domain":"arvadaestates.com",
+    "city":"Arvada",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9429463,39.747597 ]
+    },
+    "properties": {
+    "name":"Can Copy Over #1",
+    "corporate":"f",
+    "domain":"7711luxeb.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8972891,39.7188429 ]
+    },
+    "properties": {
+    "name":"Suburban -- Class A -- Family",
+    "corporate":"f",
+    "domain":"sales-suburban-class-a-family.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9807549,39.7375032 ]
+    },
+    "properties": {
+    "name":"G5 Apartments",
+    "corporate":"f",
+    "domain":"g5apartments-streamlined-location-showcase-ivy-lifestyle.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9923616,39.7139431 ]
+    },
+    "properties": {
+    "name":"Venture Demo",
+    "corporate":"f",
+    "domain":"multifamilyventuremetropolitan.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1113468,39.7155271 ]
+    },
+    "properties": {
+    "name":"Denali MF Demo",
+    "corporate":"f",
+    "domain":"multifamilydenalidemo.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9892578,39.7371756 ]
+    },
+    "properties": {
+    "name":"Can Copy Over #3",
+    "corporate":"f",
+    "domain":"100ivy.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9429463,39.747597 ]
+    },
+    "properties": {
+    "name":"G5 Apartments",
+    "corporate":"f",
+    "domain":"g5apartments-streamlined-location-showcase-broadway.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.940595,39.7475372 ]
+    },
+    "properties": {
+    "name":"G5 Apartments",
+    "corporate":"f",
+    "domain":"g5apartments-streamlined-location-showcase-denali.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2610221,40.0215128 ]
+    },
+    "properties": {
+    "name":"Corp",
+    "corporate":"t",
+    "domain":"captainplanet.com",
+    "city":"Boulder",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9172391,39.7090593 ]
+    },
+    "properties": {
+    "name":"NW Denver Ivy 1",
+    "corporate":"f",
+    "domain":"400ivy.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0202786,39.7439476 ]
+    },
+    "properties": {
+    "name":"West Denver Ivy 1",
+    "corporate":"f",
+    "domain":"1880ivy.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9606806,39.7462718 ]
+    },
+    "properties": {
+    "name":"SS Wellborne Traditions",
+    "corporate":"f",
+    "domain":"ss-wellborne-traditions-rb-real-estate.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9361636,39.7402148 ]
+    },
+    "properties": {
+    "name":"SS Cobalt",
+    "corporate":"f",
+    "domain":"ss-cobalt-rb-real-estate.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.974476,39.75926 ]
+    },
+    "properties": {
+    "name":"East Denver Luxe 1",
+    "corporate":"f",
+    "domain":"3091luxe.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0202786,39.7439476 ]
+    },
+    "properties": {
+    "name":"SS Wellborne 2",
+    "corporate":"f",
+    "domain":"g5uber.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0202786,39.7439476 ]
+    },
+    "properties": {
+    "name":"SS SALES TEAM DEMO",
+    "corporate":"f",
+    "domain":"ss-wellborne-3-rb-real-estate.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8770482,39.4702973 ]
+    },
+    "properties": {
+    "name":"Advenir at Castle Pines",
+    "corporate":"f",
+    "domain":"castlepinesapts.com",
+    "city":"Castle Pines",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.514279,39.5150801 ]
+    },
+    "properties": {
+    "name":"liquid params table testes",
+    "corporate":"f",
+    "domain":"darthkaderliquidparamstest.tk",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9396901,39.6809041 ]
+    },
+    "properties": {
+    "name":"Gone in 42 Seconds",
+    "corporate":"f",
+    "domain":"darthkadergoneinsixty.tk",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8585834,39.7137683 ]
+    },
+    "properties": {
+    "name":"Advenir at Del Arte Townhomes",
+    "corporate":"f",
+    "domain":"adveniratdelartetownhomes.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8816598,39.6539728 ]
+    },
+    "properties": {
+    "name":"Forest Cove Apartments",
+    "corporate":"f",
+    "domain":"forestcovedenver.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0601851,39.9165801 ]
+    },
+    "properties": {
+    "name":"Marquis Town Centre",
+    "corporate":"f",
+    "domain":"mqtowncentre.net",
+    "city":"Broomfield",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8776088,39.5293669 ]
+    },
+    "properties": {
+    "name":"The Marq at Ridgegate",
+    "corporate":"f",
+    "domain":"marqatridgegate.com",
+    "city":"Lone Tree",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9443829,39.7102368 ]
+    },
+    "properties": {
+    "name":"Gables Cherry Creek",
+    "corporate":"f",
+    "domain":"visitgablescherrycreek.gables.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8636538,39.6627039 ]
+    },
+    "properties": {
+    "name":"CompassRock Real Estate 2.0",
+    "corporate":"f",
+    "domain":"compassrockre.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1393342,39.70231769999999 ]
+    },
+    "properties": {
+    "name":"West Alameda Self Storage",
+    "corporate":"f",
+    "domain":"westalamedaselfstorage.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9752299,39.8245476 ]
+    },
+    "properties": {
+    "name":"70th Avenue Self Storage",
+    "corporate":"f",
+    "domain":"70thaveselfstorage.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2544338,40.0208242 ]
+    },
+    "properties": {
+    "name":"Two Nine North",
+    "corporate":"f",
+    "domain":"twoninenorth.com",
+    "city":"Boulder",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9669064,40.436798 ]
+    },
+    "properties": {
+    "name":"Cross Roads Self Storage",
+    "corporate":"f",
+    "domain":"crossroadsselfstore.com",
+    "city":"Windsor",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.075648,39.7065838 ]
+    },
+    "properties": {
+    "name":"Trifecta",
+    "corporate":"f",
+    "domain":"trifectabelmar.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0776423,39.8799996 ]
+    },
+    "properties": {
+    "name":"Eagles Landing at Church Ranch",
+    "corporate":"f",
+    "domain":"eagleslanding-apts.com",
+    "city":"Westminster",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1219138,39.9470592 ]
+    },
+    "properties": {
+    "name":"Retreat at the Flatirons",
+    "corporate":"f",
+    "domain":"retreatattheflatirons.com",
+    "city":"Broomfield",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8827981,39.699124 ]
+    },
+    "properties": {
+    "name":"The Breakers Resort",
+    "corporate":"f",
+    "domain":"thebreakersresort.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7287453,40.413117 ]
+    },
+    "properties": {
+    "name":"Garden Square of Greeley Assisted Living and Memory Care",
+    "corporate":"f",
+    "domain":"gardensquarememorycare.com",
+    "city":"Greeley",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0240031,39.9086606 ]
+    },
+    "properties": {
+    "name":"Canyon Reserve at the Ranch Apartments",
+    "corporate":"f",
+    "domain":"canyonreserveattheranch.com",
+    "city":"Westminster",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.7034683,42.7583591 ]
+    },
+    "properties": {
+    "name":"DELETE - FSS",
+    "corporate":"f",
+    "domain":"delete-selfstorage.biz",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9752299,39.8245476 ]
+    },
+    "properties": {
+    "name":"DELETE - 70SS",
+    "corporate":"f",
+    "domain":"delete-70thaveselfstorage.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.0944939,39.5846257 ]
+    },
+    "properties": {
+    "name":"Frisco Animal Hospital",
+    "corporate":"f",
+    "domain":"friscoanimalhospital.com",
+    "city":"Frisco",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8585834,39.7137683 ]
+    },
+    "properties": {
+    "name":"Alvista Highline",
+    "corporate":"f",
+    "domain":"alvistahighline.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7139663,38.9415805 ]
+    },
+    "properties": {
+    "name":"Melody Living",
+    "corporate":"f",
+    "domain":"melodylivingcoloradosprings.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1474405,40.2010824 ]
+    },
+    "properties": {
+    "name":"Advenir at Wildwood",
+    "corporate":"f",
+    "domain":"adveniratwildwood.com",
+    "city":"Longmont",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.129305,40.2022317 ]
+    },
+    "properties": {
+    "name":"Advenir at Wyndham",
+    "corporate":"f",
+    "domain":"adveniratwyndham.com",
+    "city":"Longmont",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8932487,39.7348033 ]
+    },
+    "properties": {
+    "name":"Advenir at Lowry",
+    "corporate":"f",
+    "domain":"adveniratlowry.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.902254,39.693999 ]
+    },
+    "properties": {
+    "name":"Advenir At Cherry Creek South",
+    "corporate":"f",
+    "domain":"adveniratcherrycreeksouth.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9942993,39.7129558 ]
+    },
+    "properties": {
+    "name":"Alta SoBo Station",
+    "corporate":"f",
+    "domain":"altasobostation.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.088482,39.6336756 ]
+    },
+    "properties": {
+    "name":"M2 Apartments",
+    "corporate":"f",
+    "domain":"m2apartments.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.970651,39.929377 ]
+    },
+    "properties": {
+    "name":"Promenade at Hunter's Glen Apartments",
+    "corporate":"f",
+    "domain":"promenade-apts.com",
+    "city":"Thornton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.148841,39.69509600000001 ]
+    },
+    "properties": {
+    "name":"Bluesky Landing Apartments",
+    "corporate":"f",
+    "domain":"blueskylandingco.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0843008,39.6488091 ]
+    },
+    "properties": {
+    "name":"Skyecrest Apartments",
+    "corporate":"f",
+    "domain":"skyecrest-apts.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.141039,39.7088514 ]
+    },
+    "properties": {
+    "name":"Mountain Vista Apartments",
+    "corporate":"f",
+    "domain":"mountainvistaapts.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8630526,39.6893466 ]
+    },
+    "properties": {
+    "name":"Bella Vita",
+    "corporate":"f",
+    "domain":"bellavitaseniorliving.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7139663,38.9415805 ]
+    },
+    "properties": {
+    "name":"Melody Living Colorado Springs",
+    "corporate":"f",
+    "domain":"melodylivingcoloradosprings-deleted.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.8129712,40.4529478 ]
+    },
+    "properties": {
+    "name":"Casey's Pond",
+    "corporate":"f",
+    "domain":"caseyspond.org",
+    "city":"Steamboat Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9069036,39.623273 ]
+    },
+    "properties": {
+    "name":"Corp - news",
+    "corporate":"f",
+    "domain":"cappellanewsplaceolder.com",
+    "city":"Greenwood Village",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9278173,39.6775834 ]
+    },
+    "properties": {
+    "name":"Static Streetly",
+    "corporate":"f",
+    "domain":"wills-static-test.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1237202,39.7412517 ]
+    },
+    "properties": {
+    "name":"Avenida Lakewood",
+    "corporate":"f",
+    "domain":"avenidalakewood.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9069036,39.623273 ]
+    },
+    "properties": {
+    "name":"Christian News",
+    "corporate":"f",
+    "domain":"christiannewsplaceholdersite.com",
+    "city":"Greenwood Village",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9899264,39.7363024 ]
+    },
+    "properties": {
+    "name":"Wellborne Traditions",
+    "corporate":"f",
+    "domain":"1250luxe-wellbornetraditions.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9403699,39.7172456 ]
+    },
+    "properties": {
+    "name":"Focus - Simple",
+    "corporate":"f",
+    "domain":"focussimple.fake.info.news.io.oi",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9838367,39.8586941 ]
+    },
+    "properties": {
+    "name":"Montair Apartment Homes",
+    "corporate":"f",
+    "domain":"montairliving.com",
+    "city":"Thornton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.884056,39.58428 ]
+    },
+    "properties": {
+    "name":"DTC Self Storage",
+    "corporate":"f",
+    "domain":"dtcselfstorage.com",
+    "city":"Centennial",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.820563,38.9082858 ]
+    },
+    "properties": {
+    "name":"Advenir at The Village",
+    "corporate":"f",
+    "domain":"adveniratthevillage.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7139663,38.9415805 ]
+    },
+    "properties": {
+    "name":"Melody Living Colorado Springs",
+    "corporate":"f",
+    "domain":"melodylivingcoloradosprings1opl.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.8558649,40.5026078 ]
+    },
+    "properties": {
+    "name":"The Reserves at Steamboat Springs",
+    "corporate":"f",
+    "domain":"reservesatsteamboat.com",
+    "city":"Steamboat Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0980589,40.5645888 ]
+    },
+    "properties": {
+    "name":"Heritage Park Apartments",
+    "corporate":"f",
+    "domain":"livingatthepark.com",
+    "city":"Fort Collins",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0769763,40.161507 ]
+    },
+    "properties": {
+    "name":"Sugar Mill Self Storage",
+    "corporate":"f",
+    "domain":"sugarmillselfstorage.com",
+    "city":"Longmont",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9888425,39.7635196 ]
+    },
+    "properties": {
+    "name":"Marq at RiNo",
+    "corporate":"f",
+    "domain":"marqatrino.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.046746,40.572693 ]
+    },
+    "properties": {
+    "name":"Advanced Animal Care of Colorado",
+    "corporate":"f",
+    "domain":"advancedanimalcareofcolorado.com",
+    "city":"Fort Collins",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9563645,39.91168589999999 ]
+    },
+    "properties": {
+    "name":"Hawthorne Hill Apartments",
+    "corporate":"f",
+    "domain":"hawthornehill-apts.com",
+    "city":"Northglenn",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.90545,39.67216 ]
+    },
+    "properties": {
+    "name":"Eastern Star Masonic Retirement Campus",
+    "corporate":"f",
+    "domain":"esmrcoldnothingness.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7766027,38.9316109 ]
+    },
+    "properties": {
+    "name":"Peaks at Woodmen Apartments",
+    "corporate":"f",
+    "domain":"peaksatwoodmen.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0513122,40.0311279 ]
+    },
+    "properties": {
+    "name":"Bowhaus – Erie",
+    "corporate":"f",
+    "domain":"bowhaus.biz",
+    "city":"Erie",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9842255,39.7250175 ]
+    },
+    "properties": {
+    "name":"Gables Speer Blvd",
+    "corporate":"f",
+    "domain":"visitgablesspeerblvd.gables.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8690962,39.6780666 ]
+    },
+    "properties": {
+    "name":"Broadview Animal Clinic, Inc.",
+    "corporate":"f",
+    "domain":"broadviewanimalclinic.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8503309,39.7140199 ]
+    },
+    "properties": {
+    "name":"Aurora Hills",
+    "corporate":"f",
+    "domain":"aurorahillsapartments.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8723785,39.5819429 ]
+    },
+    "properties": {
+    "name":"The Rail at Inverness",
+    "corporate":"f",
+    "domain":"railatinverness.com",
+    "city":"Englewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1388618,39.7188175 ]
+    },
+    "properties": {
+    "name":"Silver Reef Apartments",
+    "corporate":"f",
+    "domain":"thesilverreef.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7213239,39.6032994 ]
+    },
+    "properties": {
+    "name":"Advenir at Saddle Rock",
+    "corporate":"f",
+    "domain":"saddlerockapts.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8696893,38.8973002 ]
+    },
+    "properties": {
+    "name":"Advenir at Spring Canyon",
+    "corporate":"f",
+    "domain":"adveniratspringcanyon.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0012446,40.5215533 ]
+    },
+    "properties": {
+    "name":"The Wyatt",
+    "corporate":"f",
+    "domain":"thewyattfoco.com",
+    "city":"Fort Collins",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7438904,38.8418794 ]
+    },
+    "properties": {
+    "name":"AAA Platte Self Storage - Delete",
+    "corporate":"f",
+    "domain":"aaaplatte-delete.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1325878,40.174146 ]
+    },
+    "properties": {
+    "name":"Stonebridge at Twin Peaks",
+    "corporate":"f",
+    "domain":"stonebridgeattwinpeaks.com",
+    "city":"Longmont",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.8720025,37.2451059 ]
+    },
+    "properties": {
+    "name":"Riverview Animal Hospital",
+    "corporate":"f",
+    "domain":"riverviewanimal.com",
+    "city":"Durango",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8251143,39.68009259999999 ]
+    },
+    "properties": {
+    "name":"New Dawn Memory Care",
+    "corporate":"f",
+    "domain":"newdawnaurora.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0148731,39.91715 ]
+    },
+    "properties": {
+    "name":"The Brodie",
+    "corporate":"f",
+    "domain":"livethebrodie.com",
+    "city":"Westminster",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.8720025,37.2451059 ]
+    },
+    "properties": {
+    "name":"Riverside Animal Hospital South",
+    "corporate":"f",
+    "domain":"nvatestdomain2.com",
+    "city":"Durango",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1149981,39.6611266 ]
+    },
+    "properties": {
+    "name":"The Crossings at Bear Creek Apartments",
+    "corporate":"f",
+    "domain":"thecrossingsatbearcreek.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8916054,39.666441 ]
+    },
+    "properties": {
+    "name":"Arapahoe Club Apartments",
+    "corporate":"f",
+    "domain":"arapahoeclub.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8085123,39.7056187 ]
+    },
+    "properties": {
+    "name":"Crossroads at City Center Apartments",
+    "corporate":"f",
+    "domain":"crossroadsatcitycenterapts.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8567868,39.3920763 ]
+    },
+    "properties": {
+    "name":"The Bluffs at Castle Rock Apartments",
+    "corporate":"f",
+    "domain":"bluffsatcastlerockapartments.com",
+    "city":"Castle Rock",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1459233,39.7214744 ]
+    },
+    "properties": {
+    "name":"Elevate at Red Rocks",
+    "corporate":"f",
+    "domain":"elevateatredrocks.com",
+    "city":"Lakewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8885631,39.6051056 ]
+    },
+    "properties": {
+    "name":"Rhythms Home Care",
+    "corporate":"f",
+    "domain":"rhythmshomecare.com",
+    "city":"Greenwood Village",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9069035,39.6232729 ]
+    },
+    "properties": {
+    "name":"Cappella Living Solutions",
+    "corporate":"t",
+    "domain":"cappellaliving.com",
+    "city":"Greenwood Village",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2324684,40.01357369999999 ]
+    },
+    "properties": {
+    "name":"Location Two",
+    "corporate":"f",
+    "domain":"liveatverdantapts.com",
+    "city":"Boulder",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8041078,39.774393 ]
+    },
+    "properties": {
+    "name":"Gateway Park Apartments",
+    "corporate":"f",
+    "domain":"gatewaypark-apts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.883506,39.69071 ]
+    },
+    "properties": {
+    "name":"Alton Green Apartments",
+    "corporate":"f",
+    "domain":"altongreenapts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9758045,39.766726 ]
+    },
+    "properties": {
+    "name":"Downtown Self Storage",
+    "corporate":"f",
+    "domain":"downtowndenverss.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7003059,40.3844101 ]
+    },
+    "properties": {
+    "name":"Evans Self Storage",
+    "corporate":"f",
+    "domain":"evansselfstorage.com",
+    "city":"Evans",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8689806,39.5672311 ]
+    },
+    "properties": {
+    "name":"Self Storage at Inverness",
+    "corporate":"f",
+    "domain":"selfstorageatinverness.com",
+    "city":"Englewood",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8738117,39.6941913 ]
+    },
+    "properties": {
+    "name":"Legend Oaks Apartments",
+    "corporate":"f",
+    "domain":"legendoaksco-apts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7202897,38.9838449 ]
+    },
+    "properties": {
+    "name":"East Woodmen Self Storage",
+    "corporate":"f",
+    "domain":"eastwoodmenstorage.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0575504,40.5201275 ]
+    },
+    "properties": {
+    "name":"Friendship Hospital for Animals",
+    "corporate":"f",
+    "domain":"friendshiphospitalforanimals.com",
+    "city":"Fort Collins",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.814153,39.6969572 ]
+    },
+    "properties": {
+    "name":"The Preserve at City Center",
+    "corporate":"f",
+    "domain":"preserveatcitycenter.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8551585,38.80575109999999 ]
+    },
+    "properties": {
+    "name":"Retreat at Cheyenne Mountain Apartments",
+    "corporate":"f",
+    "domain":"retreatatcheyennemountainapts.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8616452,39.7132953 ]
+    },
+    "properties": {
+    "name":"Advenir at Del Arte",
+    "corporate":"f",
+    "domain":"adveniratdelarte.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0562398,39.6568561 ]
+    },
+    "properties": {
+    "name":"Bear Valley Park",
+    "corporate":"f",
+    "domain":"bearvalleyparkapts.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9069036,39.623273 ]
+    },
+    "properties": {
+    "name":"Christian Living Communities",
+    "corporate":"t",
+    "domain":"christianlivingcommunities.org",
+    "city":"Greenwood Village",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.812099,39.0208 ]
+    },
+    "properties": {
+    "name":"Northgate Self Storage",
+    "corporate":"f",
+    "domain":"northgatestorageunits.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.037365,40.566001 ]
+    },
+    "properties": {
+    "name":"Timberline Self Storage",
+    "corporate":"f",
+    "domain":"timberlineselfstorage.com",
+    "city":"Fort Collins",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7011139,39.0156779 ]
+    },
+    "properties": {
+    "name":"Blue Forest Vet Clinic",
+    "corporate":"f",
+    "domain":"darthkaderblueforest.tk",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1004094,40.0000906 ]
+    },
+    "properties": {
+    "name":"Affinity at Lafayette",
+    "corporate":"f",
+    "domain":"affinityatlafayette.com",
+    "city":"Lafayette",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.712525,38.887203 ]
+    },
+    "properties": {
+    "name":"Affinity at Colorado Springs",
+    "corporate":"f",
+    "domain":"affinityatcoloradosprings.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.935673,39.6717308 ]
+    },
+    "properties": {
+    "name":"Clermont Park",
+    "corporate":"f",
+    "domain":"clermontpark.org",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.1085921,39.8059111 ]
+    },
+    "properties": {
+    "name":"Edgemark Self Storage Arvada",
+    "corporate":"f",
+    "domain":"arvadastorage.com",
+    "city":"Arvada",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.2008783,40.0733247 ]
+    },
+    "properties": {
+    "name":"Bowhaus – Boulder",
+    "corporate":"f",
+    "domain":"bowhausboulder.com",
+    "city":"Boulder",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0273946,40.5289942 ]
+    },
+    "properties": {
+    "name":"Affinity at Fort Collins",
+    "corporate":"f",
+    "domain":"affinityatfortcollins.com",
+    "city":"Fort Collins",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9278385,39.67989499999999 ]
+    },
+    "properties": {
+    "name":"Asbury Plaza",
+    "corporate":"f",
+    "domain":"asburyplazaapartments.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0208127,39.60322790000001 ]
+    },
+    "properties": {
+    "name":"City Bark - Littleton",
+    "corporate":"f",
+    "domain":"citybark1.com",
+    "city":"Littleton",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.882219,39.697319 ]
+    },
+    "properties": {
+    "name":"TAVA Waters",
+    "corporate":"f",
+    "domain":"tavawaters.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7950326,39.5376767 ]
+    },
+    "properties": {
+    "name":"City Bark - Parker",
+    "corporate":"f",
+    "domain":"citybark3.com",
+    "city":"Parker",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.924695,39.598039 ]
+    },
+    "properties": {
+    "name":"Holly Creek Retirement Community",
+    "corporate":"f",
+    "domain":"hollycreekcommunity.com",
+    "city":"Centennial",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.0371242,39.7555602 ]
+    },
+    "properties": {
+    "name":"Dayspring Villa",
+    "corporate":"f",
+    "domain":"dayspringvilla.org",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9304576,39.593264 ]
+    },
+    "properties": {
+    "name":"Someren Glen",
+    "corporate":"f",
+    "domain":"somerenglen.org",
+    "city":"Centennial",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9263353,39.8788266 ]
+    },
+    "properties": {
+    "name":"v4.5.2-RC-Bafflegab-gold-1.0",
+    "corporate":"f",
+    "domain":"darthkaderbafflegabgold.tk",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9396901,39.6809041 ]
+    },
+    "properties": {
+    "name":"RC8.1.2017 Nacho Cheese",
+    "corporate":"f",
+    "domain":"darthkaderrcnachocheese.tk",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9879586,39.7520951 ]
+    },
+    "properties": {
+    "name":"Downtown Denver Storage",
+    "corporate":"f",
+    "domain":"downtowndenverstorage.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.8224199,39.695664 ]
+    },
+    "properties": {
+    "name":"City Center Station Apartments",
+    "corporate":"f",
+    "domain":"citycenterstationapts.com",
+    "city":"Aurora",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7949278,39.784023 ]
+    },
+    "properties": {
+    "name":"Strata Apartments",
+    "corporate":"f",
+    "domain":"stratadenver.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9350678,39.7098927 ]
+    },
+    "properties": {
+    "name":"Edgemark Self Storage",
+    "corporate":"f",
+    "domain":"edgemarkselfstoragedeleted.com",
+    "city":"Glendale",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.6869828,38.8480235 ]
+    },
+    "properties": {
+    "name":"Maximum Storage RV & Self Storage",
+    "corporate":"f",
+    "domain":"maximumstorageco.com",
+    "city":"Colorado Springs",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.772248,39.5300243 ]
+    },
+    "properties": {
+    "name":"BlueMountain Self Storage and Wine Lockers",
+    "corporate":"f",
+    "domain":"bluemountainselfstorage.com",
+    "city":"Parker",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.6120285,37.4301696 ]
+    },
+    "properties": {
+    "name":"Meadows Self Storage",
+    "corporate":"f",
+    "domain":"meadowsselfstorage.com",
+    "city":"Castle Rock",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.109817,39.8263973 ]
+    },
+    "properties": {
+    "name":"Kipling Meadows",
+    "corporate":"f",
+    "domain":"kiplingmeadows.com",
+    "city":"Arvada",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.90545,39.67216 ]
+    },
+    "properties": {
+    "name":"Eastern Star Masonic Retirement Campus",
+    "corporate":"f",
+    "domain":"esmrc.com",
+    "city":"Denver",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.731685,40.4070278 ]
+    },
+    "properties": {
+    "name":"Garden Square at Westlake Assisted Living",
+    "corporate":"f",
+    "domain":"gardensquareatwestlake.com",
+    "city":"Greeley",
+    "state":"CO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.769938,39.555814 ]
+    },
+    "properties": {
+    "name":"Pine Grove Crossing",
+    "corporate":"f",
+    "domain":"pinegrovecrossing.com",
+    "city":"Parker",
+    "state":"CO"
+    }
+  }
+]
 }
